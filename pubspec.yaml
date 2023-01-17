@@ -1,0 +1,42 @@
+name: e_commere
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  build_runner: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/product_data.json
+    - assets/product-Img/
+  #   - images/a_dot_ham.jpeg
+
+ 
+  fonts:
+    - family: Rutan
+      fonts:
+        - asset: assets/fonts/rutan-demibold.ttf
+        - asset: assets/fonts/rutan-regular.ttf
+        - asset: assets/fonts/rutan-black.ttf

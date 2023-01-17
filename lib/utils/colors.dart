@@ -1,4 +1,3 @@
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
 
 const lightGreenBg = Color(0xFFE0F0F0);

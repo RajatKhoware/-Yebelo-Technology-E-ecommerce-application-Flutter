@@ -34,7 +34,7 @@ class ProductTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(12),
         ),
         child: Column(children: [
-          //Price
+          //Price of Product
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
@@ -56,7 +56,7 @@ class ProductTile extends StatelessWidget {
               )
             ],
           ),
-          //Image
+          //Image of Product
           Padding(
             padding: const EdgeInsets.only(top: 5, bottom: 10),
             child: Image.asset(
@@ -64,13 +64,13 @@ class ProductTile extends StatelessWidget {
               scale: 4.0,
             ),
           ),
-          //Flavour
+          //Name Of Product
           CustomText(
               text: productName,
               fontsize: 16,
               colors: Colors.black,
               fontWeight: FontWeight.w600),
-          //Name
+
           const SizedBox(height: 3.5),
           CustomText(
             text: "Fruit's",
@@ -78,7 +78,7 @@ class ProductTile extends StatelessWidget {
             colors: black.withOpacity(0.4),
             fontWeight: FontWeight.w600,
           ),
-          //Buttons
+          //ID of product
           const SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -98,6 +98,7 @@ class ProductTile extends StatelessWidget {
               ],
             ),
           ),
+          // Available Quantity of Product
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: Row(
@@ -116,7 +117,7 @@ class ProductTile extends StatelessWidget {
               ],
             ),
           ),
-
+          // Button to update the available quantity of product
           Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
               child: InkWell(

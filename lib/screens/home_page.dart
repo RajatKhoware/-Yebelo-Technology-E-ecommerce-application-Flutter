@@ -92,8 +92,7 @@ class _HomePageState extends State<HomePage> {
               child: SizedBox(
                 width: double.infinity,
                 height: 570,
-                child: GridView.builder(
-                 
+                child: GridView.builder( 
                   itemCount: _filteredProducts.length,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
